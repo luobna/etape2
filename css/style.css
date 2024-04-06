@@ -6,6 +6,9 @@ display:flex;
 header{
     justify-content: space-between;
 }
+.logo{
+    right: 50px;
+}
 nav ul{
     gap:35px
 }
@@ -15,11 +18,12 @@ nav ul li{
 nav a.Hébergements{
     color: #0065FC;
 }
+
 a.Hébergements{
     border-top: 2px solid;
 }
 
-@media screen {max-width: 900px;
+@media (max-width: 900px) {
     .main-container{
         flex-direction: column;
         align-items: center;
