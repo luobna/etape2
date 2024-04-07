@@ -1,5 +1,5 @@
 /****** General ***********/
-/*HEADER*/
+                         /*HEADER*/
 
 header,
 nav ul {
@@ -41,6 +41,16 @@ a.Hébergements {
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+                         /*TITRES,RECHERCHE,FILTRES*/
+
 
 * {
     font-family: 'Raleway', sans-serif;
@@ -99,9 +109,18 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
+
+
+
+
+
+
+
+
+
 }
 
-/****** Hebergements And Populaires ***********/
+                              /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -164,8 +183,14 @@ a {
     margin-bottom: 5px;
 }
 
+                                /*ACTIVITES*/
 
 
+
+
+
+
+                                
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -209,7 +234,19 @@ a {
     /* ... */
 }
 
-       /*FOOTER*/
+
+
+
+
+
+
+
+
+
+
+
+
+                     /*FOOTER*/
 
 footer {
     margin-top: 15px;
