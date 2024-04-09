@@ -1,5 +1,5 @@
 /****** General ***********/
-                         /*HEADER*/
+/*HEADER*/
 
 header,
 nav ul {
@@ -49,7 +49,60 @@ a.Hébergements {
 
 
 
-                         /*TITRES,RECHERCHE,FILTRES*/
+/*TITRES,RECHERCHE,FILTRES*/
+
+.icone {
+    height: 20px;
+}
+
+.borduresearch {
+    width: 325px;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.search {
+    height: 44px;
+    width: 162px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    border-width: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.motrechercher {
+    width: 115px;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0;
+    font-size: 15px;
+    height: 32px;
+    padding-top: 13px;
+    background-color: #0000ffc2;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.borduresearch>div:first-child {
+    text-align: center;
+    width: 48px;
+    padding-top: 12px;
+    background: #8080803d;
+    border-radius: 10px 0px 0px 10px;
+}
+.borduresearch>div:nth-child(2)
+{
+    border-top: 1px solid #8080803d;
+    border-bottom: 1px solid #8080803d;
+    height: 44px;
+}
+
+
 
 
 * {
@@ -109,18 +162,9 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
-
-
-
-
-
-
-
-
-
 }
 
-                              /****** Hebergements And Populaires ***********/
+/****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -183,14 +227,14 @@ a {
     margin-bottom: 5px;
 }
 
-                                /*ACTIVITES*/
+/*ACTIVITES*/
 
 
 
 
 
 
-                                
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -246,7 +290,7 @@ a {
 
 
 
-                     /*FOOTER*/
+/*FOOTER*/
 
 footer {
     margin-top: 15px;
