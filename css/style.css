@@ -1,4 +1,7 @@
 /****** General ***********/
+
+
+
 /*HEADER*/
 
 header,
@@ -30,15 +33,36 @@ a.Hébergements {
     border-top: 2px solid;
 }
 
-@media (max-width: 900px) {
+
+
+
+/*RESPONSIVE DESIGN POUR LE BLOC HEADER*/
+
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px){
     .main-container {
-        flex-direction: column;
-        align-items: center;
+        width: 100%;
     }
 
-    footer {
-        flex-direction: column;
-        width: 100%;
+}
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    header{
+        display: block;
+    }
+    .logo{
+        text-align: center;
+    }
+    a.Hébergements{
+        border-bottom: 2px solid;
+        border-top: none;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        margin-left: 8px
     }
 }
 
@@ -49,7 +73,13 @@ a.Hébergements {
 
 
 
-/*TITRES,RECHERCHE,FILTRES*/
+/*TITRES,FORMULAIRE DE RECHERCHE,FILTRES*/
+p{
+    margin-bottom: 32px;
+}
+
+
+/*FORMULAIRE DE RECHERCHE*/
 
 .icone {
     height: 20px;
@@ -75,7 +105,7 @@ a.Hébergements {
 }
 
 
-.motrechercher {
+.boutonrechercher {
     width: 115px;
     cursor: pointer;
     border-radius: 0px 10px 10px 0;
@@ -100,7 +130,13 @@ a.Hébergements {
     border-top: 1px solid #8080803d;
     border-bottom: 1px solid #8080803d;
     height: 44px;
+
 }
+/*FILTRES*/
+.filtres{
+    margin-top: 50px;
+}
+
 
 
 
@@ -273,11 +309,11 @@ a {
     }
 }
 
+
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
 }
-
 
 
 
@@ -315,4 +351,22 @@ footer {
 
 .footer-column ul {
     padding: 0;
+}
+
+
+/*RESPONSIVE DESIGN POUR LE BLOC FOOTER*/
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px){
+
+    footer {
+        width: 100%;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .footer-columns{
+        display: block;
+    }
 }
