@@ -43,7 +43,7 @@ a.activites:hover {
 
 
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+@media ( min-width:769px) and (max-width: 1024px) {
     .main-container {
         width: 100%;
     }
@@ -51,18 +51,14 @@ a.activites:hover {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+
+@media (max-width: 768px) {
     header {
         display: block;
     }
 
     .logo {
         text-align: center;
-    }
-
-    a.Hébergements {
-        border-bottom: 2px solid;
-        border-top: none;
     }
 
     h2 {
@@ -75,6 +71,23 @@ a.activites:hover {
 
     .activités {
         margin-left: 50px;
+    }
+}
+
+
+@media (max-width: 450px){
+
+    a.hebergements:hover {
+        border-bottom: 2px solid;
+        border-top: none;
+    }
+    a.activites:hover{
+        border-bottom: 2px solid;
+        border-top: none;
+        padding-bottom: 10px;
+    }
+    nav ul{
+        border-bottom:inset;
     }
 }
 
@@ -243,6 +256,31 @@ p {
     padding-top: 4px;
     padding-left: 14px;
 }
+
+
+/*RESPONSIVE DESIGN POUR LE BLOC FORMULAIRE DE RECHERCHE, FILTRE ET D'AUTRES PARTIES*/
+/* Medium devices (tablets, less/equal than 1024px) */
+
+@media ( min-width:769px)and ( max-width:862px){
+
+    .filtreglobal div {
+        padding: 13px 11px 0px 15px;
+}
+
+.filtreglobal {
+    width: 660px;
+}
+.motfiltreeticone{
+display: block;
+}
+}
+
+/* Small devices (phones, less than 768px) */
+
+@media (max-width: 768px) {
+    
+}
+
 
 
 
